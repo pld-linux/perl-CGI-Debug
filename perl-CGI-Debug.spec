@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla CGI-Debug
 Name:		perl-CGI-Debug
 Version:	0.06
 Release:	1
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/CGI/CGI-Debug-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CGI/CGI-Debug-%{version}.tar.gz
 BuildRequires:	perl >= 5.005_03-10
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
@@ -18,8 +18,8 @@ Requires:	perl-Time-HiRes
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Debug will catch (almost) all compilation and runtime errors and warnings 
-and will display them in the browser.
+CGI-Debug will catch (almost) all compilation and runtime errors and
+warnings and will display them in the browser.
 
 %description -l pl
 Modu³ perla CGI-Debug
