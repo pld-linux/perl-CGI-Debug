@@ -3,7 +3,7 @@ Summary:	CGI-Debug perl module
 Summary(pl):	Modu³ perla CGI-Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -14,6 +14,7 @@ BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
 Requires:	perl-MIME-Lite
 Requires:	perl-Time-HiRes
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
