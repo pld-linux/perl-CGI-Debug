@@ -1,9 +1,12 @@
+%define	pdir	CGI
+%define	pnam	Debug
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI-Debug perl module
 Summary(pl):	Modu³ perla CGI-Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	3
+Release:	4
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CGI/CGI-Debug-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
