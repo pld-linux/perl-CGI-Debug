@@ -6,7 +6,7 @@
 %define	pdir	CGI
 %define	pnam	Debug
 Summary:	CGI::Debug perl module
-Summary(pl):	Modu³ perla CGI::Debug
+Summary(pl):	Modu³ Perla CGI::Debug
 Name:		perl-CGI-Debug
 Version:	1.0
 Release:	10
@@ -25,7 +25,7 @@ CGI::Debug will catch (almost) all compilation and runtime errors and
 warnings and will display them in the browser.
 
 %description -l pl
-Modu³ perla CGI::Debug - wy³apuj±cy (prawie) wszystkie b³êdy
+Modu³ Perla CGI::Debug - wy³apuj±cy (prawie) wszystkie b³êdy
 kompilacji i uruchomienia oraz ostrze¿enia i wy¶wietlaj±cy je w
 przegl±darce.
 
