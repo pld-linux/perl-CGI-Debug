@@ -6,19 +6,25 @@ Summary(pl):	Modu³ perla CGI-Debug
 Name:		perl-CGI-Debug
 Version:	1.0
 Release:	4
-
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
+Group(da):	Udvikling/Sprog/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(es):	Desarrollo/Lenguajes/Perl
 Group(fr):	Development/Langues/Perl
+Group(is):	Þróunartól/Forritunarmál/Perl
+Group(it):	Sviluppo/Linguaggi/Perl
 Group(ja):	³«È¯/¸À¸ì/Perl
+Group(no):	Utvikling/Programmeringsspråk/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
+Group(sl):	Razvoj/Jeziki/Perl
+Group(sv):	Utveckling/Språk/Perl
+Group(uk):	òÏÚÒÏÂËÁ/íÏ×É/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
 Requires:	perl-MIME-Lite
