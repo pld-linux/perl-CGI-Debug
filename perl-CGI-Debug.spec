@@ -12,8 +12,6 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CGI/CGI-Debug-%{version}.
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 Requires:	perl-MIME-Lite
 Requires:	perl-Time-HiRes
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
