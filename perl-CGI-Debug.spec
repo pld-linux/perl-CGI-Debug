@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	Debug
-Summary:	CGI-Debug perl module
-Summary(pl):	Modu³ perla CGI-Debug
+Summary:	CGI::Debug perl module
+Summary(pl):	Modu³ perla CGI::Debug
 Name:		perl-CGI-Debug
 Version:	1.0
 Release:	5
@@ -18,11 +18,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Debug will catch (almost) all compilation and runtime errors and
+CGI::Debug will catch (almost) all compilation and runtime errors and
 warnings and will display them in the browser.
 
 %description -l pl
-Modu³ perla CGI-Debug
+Modu³ perla CGI::Debug
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
