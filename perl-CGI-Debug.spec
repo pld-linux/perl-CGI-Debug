@@ -27,7 +27,7 @@ Modu³ perla CGI-Debug
 %setup -q -n CGI-Debug-%{version}
 
 %build
-perl Makefile.PL
+echo root@localhost | perl Makefile.PL
 %{__make}
 
 %install
