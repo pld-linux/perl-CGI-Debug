@@ -9,14 +9,14 @@ Summary:	CGI::Debug perl module
 Summary(pl):	Modu³ perla CGI::Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4aa24a6e4aad4a488cf8bfe15cad7c25
-BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
+BuildRequires:	perl-devel >= 1:5.8.0
 Requires:	perl-MIME-Lite
 Requires:	perl-Time-HiRes
 BuildArch:	noarch
@@ -33,6 +33,9 @@ przegl±darce.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+
+# don't try to send mail during tests
+rm -f t/mail.t
 
 %build
 echo root@localhost | perl Makefile.PL \
