@@ -5,7 +5,7 @@ Summary:	CGI::Debug perl module
 Summary(pl):	Modu³ perla CGI::Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,7 +30,8 @@ przegl±darce.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-echo root@localhost | perl Makefile.PL
+echo root@localhost | perl Makefile.PL \
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
@@ -44,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/CGI/Debug.pm
+%{perl_vendorlib}/CGI/Debug.pm
 %{_mandir}/man3/*
