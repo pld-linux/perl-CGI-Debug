@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Debug
+%define		pdir	CGI
+%define		pnam	Debug
 Summary:	CGI::Debug perl module
 Summary(pl):	Modu³ Perla CGI::Debug
 Name:		perl-CGI-Debug
