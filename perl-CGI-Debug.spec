@@ -14,7 +14,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4aa24a6e4aad4a488cf8bfe15cad7c25
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
 Requires:	perl-MIME-Lite
