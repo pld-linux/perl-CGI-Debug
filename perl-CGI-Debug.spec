@@ -9,7 +9,7 @@ Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6.1
+BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-Time-HiRes
 Requires:	perl-MIME-Lite
