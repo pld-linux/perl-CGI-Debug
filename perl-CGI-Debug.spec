@@ -29,7 +29,7 @@ Modu³ perla CGI-Debug
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
