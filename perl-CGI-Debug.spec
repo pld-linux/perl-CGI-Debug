@@ -15,7 +15,7 @@ BuildRequires:	perl-Time-HiRes
 Requires:	%{perl_sitearch}
 Requires:	perl-MIME-Lite
 Requires:	perl-Time-HiRes
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CGI-Debug will catch (almost) all compilation and runtime errors and warnings 
