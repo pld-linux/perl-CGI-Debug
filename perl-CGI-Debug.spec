@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	Debug
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI-Debug perl module
 Summary(pl):	Modu³ perla CGI-Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +25,7 @@ warnings and will display them in the browser.
 Modu³ perla CGI-Debug
 
 %prep
-%setup -q -n CGI-Debug-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 echo root@localhost | perl Makefile.PL
