@@ -9,7 +9,7 @@ Summary:	CGI::Debug perl module
 Summary(pl.UTF-8):	Moduł Perla CGI::Debug
 Name:		perl-CGI-Debug
 Version:	1.0
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
