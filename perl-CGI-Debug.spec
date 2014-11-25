@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Debug
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Debug perl module
 Summary(pl.UTF-8):	Moduł Perla CGI::Debug
 Name:		perl-CGI-Debug
@@ -14,6 +14,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4aa24a6e4aad4a488cf8bfe15cad7c25
+URL:		http://search.cpan.org/dist/CGI-Debug/
 BuildRequires:	perl-MIME-Lite
 BuildRequires:	perl-devel >= 1:5.8.0
 Requires:	perl-MIME-Lite
