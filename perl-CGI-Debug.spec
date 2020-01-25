@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Debug
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Debug perl module
 Summary(pl.UTF-8):	Moduł Perla CGI::Debug
 Name:		perl-CGI-Debug
